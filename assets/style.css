@@ -494,7 +494,100 @@ body {
         font-size: 14px !important;
         padding: 10px 14px !important;
     }
+/* =========================================
+   HOMEPAGE — PRACTICAL GUIDES
+========================================= */
 
+.home-article-card {
+  background: #ffffff;
+  border: 1px solid #E8ECEB;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-article-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(23, 33, 43, 0.07);
+}
+
+/* Guide image */
+.home-article-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #F0F4F3;
+}
+
+.home-article-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Guide content */
+.home-article-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.home-article-label {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #027E6F;
+  margin-bottom: 12px;
+}
+
+.home-article-card h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  color: #17212B;
+}
+
+.home-article-card p {
+  color: #59636E;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.home-article-cta {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+/* Mobile refinements */
+@media (max-width: 767px) {
+
+  .home-article-content {
+    padding: 20px;
+  }
+
+  .home-article-card h3 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .home-article-card p {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .home-article-cta {
+    width: 100%;
+    text-align: center;
+  }
+
+}
     body {
         font-size: 16px;
     }
