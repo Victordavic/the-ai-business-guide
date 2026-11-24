@@ -1277,3 +1277,25 @@ small,
 .directory-stat strong {
     color: #027E6F !important;
 }
+/* =========================================
+   HOMEPAGE — HERO BALANCE
+========================================= */
+
+@media (min-width: 992px) {
+    .hero .container > .row {
+        align-items: center !important;
+    }
+
+    .hero .container > .row > div {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .hero .hero-card {
+        height: 100%;
+    }
+
+    .hero h1 {
+        max-width: 650px;
+    }
+}
