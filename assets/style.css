@@ -1141,3 +1141,139 @@ small,
     }
 
 }
+/* =========================================
+   BIZTECH COMPASS — BRAND RESTORATION
+   Approved homepage reference
+========================================= */
+
+/* Brand colors */
+:root {
+    --ink: #17212B;
+    --muted: #59636E;
+    --blue: #027E6F;
+    --teal: #027E6F;
+    --pale: #F7F9F8;
+}
+
+/* Brand logo */
+.brand-mark {
+    display: inline-grid !important;
+    place-items: center !important;
+    width: 36px !important;
+    height: 36px !important;
+    background: #027E6F !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 10px !important;
+}
+
+/* Brand name accent */
+.brand-accent {
+    color: #027E6F !important;
+}
+
+/* Green/teal headings and highlighted text */
+.hero h1 span,
+.directory-hero h1 span {
+    color: #027E6F !important;
+}
+
+/* Eyebrow labels */
+.eyebrow {
+    color: #027E6F !important;
+}
+
+/* Primary buttons */
+.btn-primary,
+.btn-primary:visited {
+    background: #027E6F !important;
+    border-color: #027E6F !important;
+    color: #FFFFFF !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background: #01685C !important;
+    border-color: #01685C !important;
+    color: #FFFFFF !important;
+}
+
+/* Teal links */
+.card-link,
+.article-card a,
+.directory-link,
+.footer-links a {
+    color: #027E6F !important;
+}
+
+.card-link:hover,
+.article-card a:hover,
+.directory-link:hover,
+.footer-links a:hover {
+    color: #015F53 !important;
+}
+
+/* Hero category links */
+.tool-row .arrow {
+    color: #027E6F !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Category icon backgrounds */
+.tool-icon,
+.category-icon {
+    background: #E8F4F1;
+    color: #027E6F;
+}
+
+/* Highlight pills */
+.pill {
+    background: #E8F4F1 !important;
+    color: #027E6F !important;
+}
+
+/* Category badges */
+.tool-category {
+    color: #027E6F;
+}
+
+/* Directory filters */
+.filter-btn:hover,
+.filter-btn.active {
+    background: #027E6F !important;
+    border-color: #027E6F !important;
+    color: #FFFFFF !important;
+}
+
+/* Search focus */
+.search-wrap input:focus {
+    border-color: #027E6F !important;
+    box-shadow: 0 0 0 0.2rem rgba(2, 126, 111, 0.15) !important;
+}
+
+/* Guide card category labels */
+.home-article-label {
+    color: #027E6F !important;
+}
+
+/* Hero background */
+.hero {
+    background: linear-gradient(
+        120deg,
+        #F3F8FC 0%,
+        #FFFFFF 55%,
+        #EAF8F5 100%
+    ) !important;
+}
+
+/* Newsletter/CTA area */
+.newsletter-box {
+    background: #EAF6F3 !important;
+}
+
+/* Brand color for statistic numbers */
+.directory-stat strong {
+    color: #027E6F !important;
+}
