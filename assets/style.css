@@ -588,6 +588,102 @@ body {
   }
 
 }
+/* =========================================
+   HOMEPAGE — GUIDE CARD LAYOUT
+   Reference design: image left, content right
+========================================= */
+
+.home-article-card {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  border: 1px solid #E8ECEB;
+  border-radius: 18px;
+  overflow: hidden;
+  height: 100%;
+  box-shadow: 0 4px 14px rgba(23, 33, 43, 0.05);
+}
+
+/* Image — left half */
+.home-article-image {
+  width: 50%;
+  flex: 0 0 50%;
+  aspect-ratio: auto;
+  min-height: 300px;
+  overflow: hidden;
+}
+
+.home-article-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Content — right half */
+.home-article-content {
+  flex: 1;
+  min-width: 0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Guide label */
+.home-article-label {
+  align-self: flex-start;
+  margin-bottom: 14px;
+}
+
+/* Guide title */
+.home-article-card h3 {
+  font-size: 1.4rem;
+  line-height: 1.35;
+  margin-bottom: 14px;
+}
+
+/* Description */
+.home-article-card p {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.home-article-cta {
+  align-self: flex-start;
+  margin-top: 0;
+}
+
+/* Mobile layout */
+@media (max-width: 767px) {
+
+  .home-article-card {
+    flex-direction: column;
+  }
+
+  .home-article-image {
+    width: 100%;
+    flex: 0 0 auto;
+    aspect-ratio: 16 / 9;
+    min-height: auto;
+  }
+
+  .home-article-content {
+    padding: 22px;
+  }
+
+  .home-article-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .home-article-cta {
+    width: 100%;
+    text-align: center;
+  }
+
+}
     body {
         font-size: 16px;
     }
