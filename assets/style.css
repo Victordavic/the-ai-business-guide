@@ -383,3 +383,119 @@ small, .small {
     min-width: 220px;
   }
 }
+/* ==========================================
+   BIZTECH COMPASS — SITE-WIDE READABILITY
+   Mobile-first typography upgrade
+========================================== */
+
+/* Section eyebrow labels */
+.eyebrow {
+    font-size: 15px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.06em !important;
+    line-height: 1.6 !important;
+}
+
+/* Homepage article category labels */
+.home-article-label {
+    font-size: 15px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.3px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 18px !important;
+}
+
+/* Article and card category labels */
+.article-type {
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.04em !important;
+    line-height: 1.6 !important;
+}
+
+/* AI tool category badges */
+.tool-category {
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.02em !important;
+    line-height: 1.5 !important;
+    padding: 8px 12px !important;
+}
+
+/* Pills and small highlighted labels */
+.pill {
+    font-size: 13px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.04em !important;
+    padding: 9px 12px !important;
+}
+
+/* Labels inside tool information boxes */
+.tool-fit strong {
+    font-size: 13px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.04em !important;
+    line-height: 1.6 !important;
+}
+
+/* Small text in tool rows */
+.tool-row small {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+}
+
+/* Directory filter buttons */
+.filter-btn {
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    padding: 10px 15px !important;
+}
+
+/* Directory statistic descriptions */
+.directory-stat small {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+}
+
+/* General small text */
+small,
+.small {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Body text — improve mobile reading */
+body {
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+/* Mobile readability */
+@media (max-width: 767px) {
+
+    .eyebrow {
+        font-size: 14px !important;
+    }
+
+    .home-article-label {
+        font-size: 14px !important;
+    }
+
+    .article-type,
+    .tool-category {
+        font-size: 14px !important;
+    }
+
+    .tool-row small {
+        font-size: 14px !important;
+    }
+
+    .filter-btn {
+        font-size: 14px !important;
+        padding: 10px 14px !important;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
