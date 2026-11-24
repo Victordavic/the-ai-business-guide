@@ -327,11 +327,11 @@ small, .small {
 .home-article-label {
   display: inline-block;
   color: #027E6F;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.5;
-  margin-bottom: 14px;
+  letter-spacing: 0.4px;
+  line-height: 1.6;
+  margin-bottom: 16px;
 }
 
 .home-article-card h3 {
