@@ -1277,3 +1277,74 @@ small,
 .directory-stat strong {
     color: #027E6F !important;
 }
+/* =========================================
+   MOBILE NAVIGATION POLISH
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    /* Keep navbar above page content */
+    .navbar {
+        position: relative;
+        z-index: 1050;
+    }
+
+    /* Mobile menu panel */
+    .navbar .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: #ffffff;
+        padding: 12px 20px 18px;
+        border-top: 1px solid #E8ECEB;
+        box-shadow: 0 12px 24px rgba(23, 33, 43, 0.08);
+        z-index: 1050;
+    }
+
+    /* Navigation list spacing */
+    .navbar .navbar-nav {
+        gap: 4px !important;
+    }
+
+    /* Main navigation links */
+    .navbar .navbar-nav .nav-link {
+        padding: 12px 10px;
+        border-radius: 10px;
+    }
+
+    .navbar .navbar-nav .nav-link:hover,
+    .navbar .navbar-nav .nav-link:focus {
+        background: #F3F8F7;
+    }
+
+    /* Guides dropdown */
+    .navbar .dropdown-menu {
+        position: static;
+        float: none;
+        width: 100%;
+        margin-top: 4px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: none;
+        background: #F7F9F8;
+        padding: 6px;
+    }
+
+    /* Dropdown links */
+    .navbar .dropdown-item {
+        padding: 11px 12px;
+        white-space: normal;
+    }
+
+    /* Hamburger button */
+    .navbar-toggler {
+        border-radius: 10px;
+        background: #ffffff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 3px rgba(2, 126, 111, 0.12);
+    }
+}
