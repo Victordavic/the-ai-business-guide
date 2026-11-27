@@ -219,7 +219,7 @@ small,
             #F2F8FA 0%,
             #FFFFFF 48%,
             #F0F9F6 100%
-        );
+        ) !important;
 }
 
 .hero h1,
@@ -1257,15 +1257,6 @@ small,
     color: #027E6F !important;
 }
 
-/* Hero background */
-.hero {
-    background: linear-gradient(
-        120deg,
-        #F3F8FC 0%,
-        #FFFFFF 55%,
-        #EAF8F5 100%
-    ) !important;
-}
 
 /* Newsletter/CTA area */
 .newsletter-box {
