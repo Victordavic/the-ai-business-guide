@@ -203,23 +203,22 @@ small,
 .hero {
     position: relative;
     overflow: hidden;
-
     background:
         radial-gradient(
-            circle at 90% 10%,
-            rgba(123, 220, 207, 0.22),
-            transparent 34%
+            circle at 88% 15%,
+            rgba(2, 126, 111, 0.12),
+            transparent 38%
         ),
         radial-gradient(
-            circle at 10% 90%,
-            rgba(199, 227, 255, 0.22),
-            transparent 38%
+            circle at 8% 90%,
+            rgba(210, 231, 244, 0.35),
+            transparent 40%
         ),
         linear-gradient(
             120deg,
-            #F3F8FC 0%,
-            #FFFFFF 55%,
-            #F0FBF8 100%
+            #F2F8FA 0%,
+            #FFFFFF 48%,
+            #F0F9F6 100%
         );
 }
 
