@@ -1348,3 +1348,29 @@ small,
         box-shadow: 0 0 0 3px rgba(2, 126, 111, 0.12);
     }
 }
+/* Compact text-only guide cards */
+.home-article-card-text {
+    flex-direction: column;
+    background: #EAF2EF;
+    border: 1px solid rgba(2, 126, 111, 0.10);
+}
+
+.home-article-card-text .home-article-content {
+    padding: 24px;
+}
+
+.home-article-card-text .home-article-label {
+    color: #027E6F;
+}
+
+.home-article-card-text h3 {
+    color: #17212B;
+}
+
+.home-article-card-text p {
+    color: #59636E;
+}
+
+.home-article-card-text .home-article-cta {
+    align-self: flex-start;
+}
